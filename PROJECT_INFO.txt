@@ -17,7 +17,6 @@ TOTAL PAGES: 6
 3. Board of Trustees (about.html)
 4. Events Page (events.html)
 5. Contact Page (contact.html)
-6. DOM Structure Page (dom-structure.html)
 
 ═══════════════════════════════════════════════════════════
                     KEY FEATURES

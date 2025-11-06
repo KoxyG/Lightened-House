@@ -85,7 +85,6 @@ All pages have the same navigation menu at the top:
 • Board of Trustees
 • Events
 • Contact
-• DOM Structure
 
 
 💡 INTERACTIVE FEATURES

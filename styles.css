@@ -1182,12 +1182,7 @@ marquee {
     line-height: 1.8;
 }
 
-/* ================================
-   DOM Structure Page
-   ================================ */
-.dom-section {
-    padding: 60px 0;
-}
+
 
 .dom-intro {
     text-align: center;

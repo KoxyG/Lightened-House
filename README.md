@@ -20,7 +20,6 @@ A modern, elegant fashion house website for Lightened House, featuring 6 compreh
 7. **Marquee**: Scrolling event information on all pages
 8. **JavaScript Features**: 20+ interactive features
 9. **External CSS**: Single `styles.css` file
-10. **DOM Structure**: Interactive DOM tree visualization page
 
 ## 📄 Website Pages
 
@@ -60,12 +59,6 @@ A modern, elegant fashion house website for Lightened House, featuring 6 compreh
 - Interactive map placeholder
 - Form success notifications
 
-### 6. DOM Structure (`dom-structure.html`)
-- Interactive DOM tree visualization
-- Expand/collapse functionality
-- Website structure overview
-- JavaScript features documentation
-- Page breakdown cards
 
 ## 🎨 Design Features
 
@@ -152,7 +145,6 @@ All pages share the same navigation:
 - Board of Trustees
 - Events
 - Contact
-- DOM Structure
 
 ## 💼 Board of Trustees
 
