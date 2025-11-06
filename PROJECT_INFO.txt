@@ -1,0 +1,162 @@
+═══════════════════════════════════════════════════════════
+                   LIGHTENED HOUSE
+            Fashion House Website Project
+═══════════════════════════════════════════════════════════
+
+PROJECT NAME: Lightened House
+TAGLINE: Elegance Redefined Since 2010
+TYPE: Fashion House Website
+
+═══════════════════════════════════════════════════════════
+                     WEBSITE OVERVIEW
+═══════════════════════════════════════════════════════════
+
+TOTAL PAGES: 6
+1. Home Page (index.html)
+2. Products Page (products.html)
+3. Board of Trustees (about.html)
+4. Events Page (events.html)
+5. Contact Page (contact.html)
+6. DOM Structure Page (dom-structure.html)
+
+═══════════════════════════════════════════════════════════
+                    KEY FEATURES
+═══════════════════════════════════════════════════════════
+
+✓ Fashion House Name: Lightened House
+✓ Marquee Banner: On all pages with event info
+✓ Consistent Navigation: Same menu structure on all pages
+✓ Product Showcase: 10 products with category filtering
+✓ Board of Trustees: 6 members with photos/initials
+✓ Events Page: 6 upcoming events with countdown timer
+✓ Contact Form: With appointment booking functionality
+✓ FAQ Section: Interactive accordion
+✓ External CSS: styles.css (single file)
+✓ JavaScript Features: 20+ interactive features in script.js
+✓ DOM Visualization: Interactive tree structure
+✓ Responsive Design: Mobile, tablet, desktop optimized
+
+═══════════════════════════════════════════════════════════
+                  BOARD OF TRUSTEES
+═══════════════════════════════════════════════════════════
+
+1. Maria Johnson - Chairperson & Creative Director
+2. David Anderson - Chief Executive Officer
+3. Sarah Chen - Chief Financial Officer
+4. James Rodriguez - Head of Design & Innovation
+5. Emily Parker - Director of Marketing
+6. Robert Thompson - Head of Sustainability
+
+═══════════════════════════════════════════════════════════
+                   PRODUCT CATEGORIES
+═══════════════════════════════════════════════════════════
+
+→ Dresses (3 items)
+  - Elegant Evening Dress
+  - Summer Floral Dress
+  - Cocktail Party Dress
+
+→ Suits (2 items)
+  - Executive Business Suit
+  - Casual Blazer Set
+
+→ Accessories (3 items)
+  - Designer Handbag
+  - Silk Scarf Collection
+  - Statement Jewelry Set
+
+→ Shoes (2 items)
+  - Classic Stiletto Heels
+  - Designer Loafers
+
+═══════════════════════════════════════════════════════════
+                   UPCOMING EVENTS
+═══════════════════════════════════════════════════════════
+
+Dec 10, 2025 - Exclusive VIP Preview
+Dec 15, 2025 - Summer Collection Launch
+Dec 20, 2025 - Annual Fashion Gala
+Jan 1, 2026  - New Year Special Sale
+Jan 15, 2026 - Fashion Styling Workshop
+Feb 1, 2026  - Fashion for a Cause (Charity)
+
+═══════════════════════════════════════════════════════════
+                JAVASCRIPT FEATURES (20+)
+═══════════════════════════════════════════════════════════
+
+1.  Mobile Navigation Toggle
+2.  Scroll Animations
+3.  Counter Animation (Statistics)
+4.  Product Filtering
+5.  Add to Cart
+6.  Event Countdown Timer
+7.  Event Registration
+8.  Form Validation
+9.  Dynamic Form Fields
+10. FAQ Accordion
+11. Member Modal Popups
+12. DOM Tree Toggle
+13. DOM Expand/Collapse All
+14. DOM Highlight
+15. Smooth Scrolling
+16. Social Media Handlers
+17. Map Integration
+18. Page Load Animation
+19. Navbar Scroll Effect
+20. Keyboard Navigation (ESC)
+
+═══════════════════════════════════════════════════════════
+                    CONTACT INFORMATION
+═══════════════════════════════════════════════════════════
+
+Business Name: Lightened House
+Address: 123 Fashion Avenue, New York, NY 10001
+Phone: +1 (555) 123-4567
+Email: info@lightenedhouse.com
+Appointments: appointments@lightenedhouse.com
+
+Hours:
+- Monday - Friday: 9:00 AM - 8:00 PM
+- Saturday: 10:00 AM - 6:00 PM
+- Sunday: 12:00 PM - 5:00 PM
+
+═══════════════════════════════════════════════════════════
+                   TECHNICAL DETAILS
+═══════════════════════════════════════════════════════════
+
+HTML: 6 pages, semantic HTML5
+CSS: External stylesheet (styles.css)
+JavaScript: External file (script.js)
+Responsive: Mobile, Tablet, Desktop
+Browser Support: Chrome, Firefox, Safari, Edge
+No Framework: Pure HTML, CSS, JavaScript
+
+Files:
+- index.html
+- products.html
+- about.html
+- events.html
+- contact.html
+- dom-structure.html
+- styles.css
+- script.js
+- README.md
+- QUICK_START.txt
+- PROJECT_INFO.txt
+
+═══════════════════════════════════════════════════════════
+                    HOW TO OPEN
+═══════════════════════════════════════════════════════════
+
+EASIEST WAY:
+Double-click index.html
+
+OR USE A LOCAL SERVER:
+python3 -m http.server 8000
+Then visit: http://localhost:8000
+
+═══════════════════════════════════════════════════════════
+              Built with ❤️ for Lightened House
+                 Elegance Redefined Since 2010
+═══════════════════════════════════════════════════════════
+

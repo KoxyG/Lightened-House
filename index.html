@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightened House - Elegance Redefined</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Marquee for upcoming events -->
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            🎉 Upcoming Events: Summer Collection Launch - Dec 15, 2025 | Fashion Gala - Dec 20, 2025 | New Year Special Sale - Jan 1, 2026 | Exclusive VIP Preview - Dec 10, 2025 | Visit Lightened House Today!
+        </marquee>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Lightened House</div>
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">Board of Trustees</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="dom-structure.html">DOM Structure</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Welcome to Lightened House</h1>
+            <p class="fade-in-delay">Where Elegance Meets Innovation</p>
+            <button class="cta-button" onclick="scrollToSection('featured')">Explore Collection</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="featured" class="featured-section">
+        <div class="container">
+            <h2 class="section-title">Our Philosophy</h2>
+            <div class="featured-grid">
+                <div class="featured-card animate-on-scroll">
+                    <div class="icon">👗</div>
+                    <h3>Timeless Design</h3>
+                    <p>Creating pieces that transcend seasons and trends, offering lasting elegance.</p>
+                </div>
+                <div class="featured-card animate-on-scroll">
+                    <div class="icon">✨</div>
+                    <h3>Premium Quality</h3>
+                    <p>Using only the finest materials and craftsmanship in every garment.</p>
+                </div>
+                <div class="featured-card animate-on-scroll">
+                    <div class="icon">🌟</div>
+                    <h3>Sustainable Fashion</h3>
+                    <p>Committed to eco-friendly practices and ethical production methods.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Collections Preview -->
+    <section class="collections-preview">
+        <div class="container">
+            <h2 class="section-title">Latest Collections</h2>
+            <div class="collections-grid">
+                <div class="collection-item animate-on-scroll">
+                    <div class="collection-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <h3>Summer Elegance</h3>
+                    <p>Light, breezy, and sophisticated</p>
+                    <a href="products.html" class="view-btn">View Collection</a>
+                </div>
+                <div class="collection-item animate-on-scroll">
+                    <div class="collection-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <h3>Evening Glamour</h3>
+                    <p>Stunning pieces for special occasions</p>
+                    <a href="products.html" class="view-btn">View Collection</a>
+                </div>
+                <div class="collection-item animate-on-scroll">
+                    <div class="collection-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <h3>Business Chic</h3>
+                    <p>Professional yet fashionable</p>
+                    <a href="products.html" class="view-btn">View Collection</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="1000">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Products</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Awards</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Lightened House</h3>
+                    <p>Elegance Redefined Since 2010</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@lightenedhouse.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" onclick="socialClick('Facebook')">Facebook</a>
+                        <a href="#" onclick="socialClick('Instagram')">Instagram</a>
+                        <a href="#" onclick="socialClick('Twitter')">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lightened House. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

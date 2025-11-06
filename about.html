@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board of Trustees - Lightened House</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Marquee for upcoming events -->
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            🎉 Upcoming Events: Summer Collection Launch - Dec 15, 2025 | Fashion Gala - Dec 20, 2025 | New Year Special Sale - Jan 1, 2026 | Exclusive VIP Preview - Dec 10, 2025 | Visit Lightened House Today!
+        </marquee>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Lightened House</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html" class="active">Board of Trustees</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="dom-structure.html">DOM Structure</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Board of Trustees</h1>
+        <p>Meet the visionaries behind Lightened House</p>
+    </section>
+
+    <!-- Board Members Section -->
+    <section class="board-section">
+        <div class="container">
+            <div class="board-intro">
+                <h2>Our Leadership Team</h2>
+                <p>Our board of trustees brings together decades of experience in fashion, business, and innovation. Together, they guide Lightened House towards excellence and sustainability.</p>
+            </div>
+
+            <div class="board-grid">
+                <div class="board-member animate-on-scroll">
+                    <div class="member-photo" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div class="member-initials">MJ</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Maria Johnson</h3>
+                        <p class="member-title">Chairperson & Creative Director</p>
+                        <p class="member-bio">With over 20 years in the fashion industry, Maria leads our creative vision and strategic direction. Her innovative designs have won numerous international awards.</p>
+                        <div class="member-contact">
+                            <button onclick="showMemberDetails('Maria Johnson', 'Chairperson')">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="board-member animate-on-scroll">
+                    <div class="member-photo" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="member-initials">DA</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>David Anderson</h3>
+                        <p class="member-title">Chief Executive Officer</p>
+                        <p class="member-bio">David brings exceptional business acumen and a track record of successful fashion ventures. He oversees operations and business development.</p>
+                        <div class="member-contact">
+                            <button onclick="showMemberDetails('David Anderson', 'CEO')">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="board-member animate-on-scroll">
+                    <div class="member-photo" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div class="member-initials">SC</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Sarah Chen</h3>
+                        <p class="member-title">Chief Financial Officer</p>
+                        <p class="member-bio">Sarah's expertise in financial management and strategic planning ensures our sustainable growth and profitability in the competitive fashion market.</p>
+                        <div class="member-contact">
+                            <button onclick="showMemberDetails('Sarah Chen', 'CFO')">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="board-member animate-on-scroll">
+                    <div class="member-photo" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <div class="member-initials">JR</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>James Rodriguez</h3>
+                        <p class="member-title">Head of Design & Innovation</p>
+                        <p class="member-bio">James leads our design team with fresh perspectives and cutting-edge approaches to fashion. His work bridges tradition with modern aesthetics.</p>
+                        <div class="member-contact">
+                            <button onclick="showMemberDetails('James Rodriguez', 'Head of Design')">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="board-member animate-on-scroll">
+                    <div class="member-photo" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div class="member-initials">EP</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Emily Parker</h3>
+                        <p class="member-title">Director of Marketing</p>
+                        <p class="member-bio">Emily's creative marketing strategies have positioned Lightened House as a leading name in luxury fashion. She expertly connects our brand with audiences worldwide.</p>
+                        <div class="member-contact">
+                            <button onclick="showMemberDetails('Emily Parker', 'Marketing Director')">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="board-member animate-on-scroll">
+                    <div class="member-photo" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                        <div class="member-initials">RT</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Robert Thompson</h3>
+                        <p class="member-title">Head of Sustainability</p>
+                        <p class="member-bio">Robert champions our commitment to sustainable and ethical fashion practices, ensuring Lightened House leads in environmental responsibility.</p>
+                        <div class="member-contact">
+                            <button onclick="showMemberDetails('Robert Thompson', 'Sustainability Head')">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Values -->
+    <section class="values-section">
+        <div class="container">
+            <h2 class="section-title">Our Core Values</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">🎯</div>
+                    <h3>Excellence</h3>
+                    <p>We strive for perfection in every stitch and design</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🌱</div>
+                    <h3>Sustainability</h3>
+                    <p>Committed to eco-friendly and ethical practices</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">💡</div>
+                    <h3>Innovation</h3>
+                    <p>Pushing boundaries in fashion and technology</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🤝</div>
+                    <h3>Integrity</h3>
+                    <p>Honest and transparent in all our dealings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for member details -->
+    <div id="memberModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <h2 id="modalName"></h2>
+            <p id="modalTitle"></p>
+            <p>Thank you for your interest in our board member. For more information, please contact us directly.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Lightened House</h3>
+                    <p>Elegance Redefined Since 2010</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: daniel.kure@miva.edu.ng</p>
+                    <p>Phone: +234 (81) 0000-0000</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" onclick="socialClick('Facebook')">Facebook</a>
+                        <a href="#" onclick="socialClick('Instagram')">Instagram</a>
+                        <a href="#" onclick="socialClick('Twitter')">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lightened House. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

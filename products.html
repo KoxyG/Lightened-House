@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Lightened House</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Marquee for upcoming events -->
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            🎉 Upcoming Events: Summer Collection Launch - Dec 15, 2025 | Fashion Gala - Dec 20, 2025 | New Year Special Sale - Jan 1, 2026 | Exclusive VIP Preview - Dec 10, 2025 | Visit Lightened House Today!
+        </marquee>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Lightened House</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="about.html">Board of Trustees</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="dom-structure.html">DOM Structure</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Our Products</h1>
+        <p>Discover our exquisite collection of fashion pieces</p>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterProducts('all')">All Products</button>
+                <button class="filter-btn" onclick="filterProducts('dresses')">Dresses</button>
+                <button class="filter-btn" onclick="filterProducts('suits')">Suits</button>
+                <button class="filter-btn" onclick="filterProducts('accessories')">Accessories</button>
+                <button class="filter-btn" onclick="filterProducts('shoes')">Shoes</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid" id="productsGrid">
+                <!-- Dresses -->
+                <div class="product-card" data-category="dresses">
+                    <div class="product-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <span class="product-badge">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Elegant Evening Dress</h3>
+                        <p class="product-category">Dresses</p>
+                        <p class="product-description">A stunning floor-length gown perfect for formal occasions</p>
+                        <div class="product-footer">
+                            <span class="price">$499.99</span>
+                            <button class="add-to-cart" onclick="addToCart('Elegant Evening Dress')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="dresses">
+                    <div class="product-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="product-info">
+                        <h3>Summer Floral Dress</h3>
+                        <p class="product-category">Dresses</p>
+                        <p class="product-description">Light and breezy dress with beautiful floral patterns</p>
+                        <div class="product-footer">
+                            <span class="price">$299.99</span>
+                            <button class="add-to-cart" onclick="addToCart('Summer Floral Dress')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="dresses">
+                    <div class="product-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                    <div class="product-info">
+                        <h3>Cocktail Party Dress</h3>
+                        <p class="product-category">Dresses</p>
+                        <p class="product-description">Chic and sophisticated midi dress for evening events</p>
+                        <div class="product-footer">
+                            <span class="price">$349.99</span>
+                            <button class="add-to-cart" onclick="addToCart('Cocktail Party Dress')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Suits -->
+                <div class="product-card" data-category="suits">
+                    <div class="product-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <span class="product-badge">Popular</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Executive Business Suit</h3>
+                        <p class="product-category">Suits</p>
+                        <p class="product-description">Professional tailored suit for the modern executive</p>
+                        <div class="product-footer">
+                            <span class="price">$799.99</span>
+                            <button class="add-to-cart" onclick="addToCart('Executive Business Suit')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="suits">
+                    <div class="product-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+                    <div class="product-info">
+                        <h3>Casual Blazer Set</h3>
+                        <p class="product-category">Suits</p>
+                        <p class="product-description">Stylish blazer and pants combo for smart casual events</p>
+                        <div class="product-footer">
+                            <span class="price">$599.99</span>
+                            <button class="add-to-cart" onclick="addToCart('Casual Blazer Set')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accessories -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);"></div>
+                    <div class="product-info">
+                        <h3>Designer Handbag</h3>
+                        <p class="product-category">Accessories</p>
+                        <p class="product-description">Luxury leather handbag with gold hardware</p>
+                        <div class="product-footer">
+                            <span class="price">$399.99</span>
+                            <button class="add-to-cart" onclick="addToCart('Designer Handbag')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+                    <div class="product-info">
+                        <h3>Silk Scarf Collection</h3>
+                        <p class="product-category">Accessories</p>
+                        <p class="product-description">Premium silk scarves in various elegant patterns</p>
+                        <div class="product-footer">
+                            <span class="price">$149.99</span>
+                            <button class="add-to-cart" onclick="addToCart('Silk Scarf Collection')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                        <span class="product-badge">Sale</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Statement Jewelry Set</h3>
+                        <p class="product-category">Accessories</p>
+                        <p class="product-description">Bold necklace and earring set with precious stones</p>
+                        <div class="product-footer">
+                            <span class="price">$249.99</span>
+                            <button class="add-to-cart" onclick="addToCart('Statement Jewelry Set')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shoes -->
+                <div class="product-card" data-category="shoes">
+                    <div class="product-image" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);"></div>
+                    <div class="product-info">
+                        <h3>Classic Stiletto Heels</h3>
+                        <p class="product-category">Shoes</p>
+                        <p class="product-description">Timeless high heels in genuine leather</p>
+                        <div class="product-footer">
+                            <span class="price">$299.99</span>
+                            <button class="add-to-cart" onclick="addToCart('Classic Stiletto Heels')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="shoes">
+                    <div class="product-image" style="background: linear-gradient(135deg, #fccb90 0%, #d57eeb 100%);"></div>
+                    <div class="product-info">
+                        <h3>Designer Loafers</h3>
+                        <p class="product-category">Shoes</p>
+                        <p class="product-description">Comfortable yet stylish loafers for everyday wear</p>
+                        <div class="product-footer">
+                            <span class="price">$349.99</span>
+                            <button class="add-to-cart" onclick="addToCart('Designer Loafers')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart notification -->
+    <div id="cartNotification" class="cart-notification">
+        Item added to cart!
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Lightened House</h3>
+                    <p>Elegance Redefined Since 2010</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@lightenedhouse.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" onclick="socialClick('Facebook')">Facebook</a>
+                        <a href="#" onclick="socialClick('Instagram')">Instagram</a>
+                        <a href="#" onclick="socialClick('Twitter')">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lightened House. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

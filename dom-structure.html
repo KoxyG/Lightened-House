@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Structure - Lightened House</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Marquee for upcoming events -->
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            🎉 Upcoming Events: Summer Collection Launch - Dec 15, 2025 | Fashion Gala - Dec 20, 2025 | New Year Special Sale - Jan 1, 2026 | Exclusive VIP Preview - Dec 10, 2025 | Visit Lightened House Today!
+        </marquee>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Lightened House</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">Board of Trustees</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="dom-structure.html" class="active">DOM Structure</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Website DOM Structure</h1>
+        <p>Visual representation of our website's Document Object Model</p>
+    </section>
+
+    <!-- DOM Structure Section -->
+    <section class="dom-section">
+        <div class="container">
+            <div class="dom-intro">
+                <h2>Understanding the DOM</h2>
+                <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. Below is a visual representation of how our Lightened House website is structured.</p>
+            </div>
+
+            <div class="dom-controls">
+                <button onclick="expandAllDOM()" class="dom-btn">Expand All</button>
+                <button onclick="collapseAllDOM()" class="dom-btn">Collapse All</button>
+                <button onclick="highlightDOM()" class="dom-btn">Highlight Interactive Elements</button>
+            </div>
+
+            <!-- DOM Tree Visualization -->
+            <div class="dom-tree">
+                <div class="dom-node" data-level="0">
+                    <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                    <span class="node-tag">&lt;html&gt;</span>
+                    <div class="node-children">
+                        <div class="dom-node" data-level="1">
+                            <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                            <span class="node-tag">&lt;head&gt;</span>
+                            <div class="node-children">
+                                <div class="dom-node" data-level="2">
+                                    <span class="node-tag">&lt;meta charset="UTF-8"&gt;</span>
+                                </div>
+                                <div class="dom-node" data-level="2">
+                                    <span class="node-tag">&lt;title&gt;</span>Lightened House
+                                </div>
+                                <div class="dom-node" data-level="2">
+                                    <span class="node-tag">&lt;link rel="stylesheet" href="styles.css"&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="dom-node" data-level="1">
+                            <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                            <span class="node-tag">&lt;body&gt;</span>
+                            <div class="node-children">
+                                <!-- Marquee -->
+                                <div class="dom-node" data-level="2">
+                                    <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                                    <span class="node-tag">&lt;div class="marquee-container"&gt;</span>
+                                    <div class="node-children">
+                                        <div class="dom-node" data-level="3">
+                                            <span class="node-tag">&lt;marquee&gt;</span>Event Information
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Navigation -->
+                                <div class="dom-node" data-level="2">
+                                    <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                                    <span class="node-tag">&lt;nav class="navbar"&gt;</span>
+                                    <div class="node-children">
+                                        <div class="dom-node" data-level="3">
+                                            <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                                            <span class="node-tag">&lt;div class="nav-container"&gt;</span>
+                                            <div class="node-children">
+                                                <div class="dom-node" data-level="4">
+                                                    <span class="node-tag">&lt;div class="logo"&gt;</span>Lightened House
+                                                </div>
+                                                <div class="dom-node" data-level="4">
+                                                    <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                                                    <span class="node-tag">&lt;ul class="nav-menu"&gt;</span>
+                                                    <div class="node-children">
+                                                        <div class="dom-node" data-level="5">
+                                                            <span class="node-tag">&lt;li&gt;&lt;a href="index.html"&gt;</span>Home
+                                                        </div>
+                                                        <div class="dom-node" data-level="5">
+                                                            <span class="node-tag">&lt;li&gt;&lt;a href="products.html"&gt;</span>Products
+                                                        </div>
+                                                        <div class="dom-node" data-level="5">
+                                                            <span class="node-tag">&lt;li&gt;&lt;a href="about.html"&gt;</span>Board of Trustees
+                                                        </div>
+                                                        <div class="dom-node" data-level="5">
+                                                            <span class="node-tag">&lt;li&gt;&lt;a href="events.html"&gt;</span>Events
+                                                        </div>
+                                                        <div class="dom-node" data-level="5">
+                                                            <span class="node-tag">&lt;li&gt;&lt;a href="contact.html"&gt;</span>Contact
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Main Content Sections -->
+                                <div class="dom-node" data-level="2">
+                                    <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                                    <span class="node-tag">&lt;section class="hero"&gt;</span>
+                                    <div class="node-children">
+                                        <div class="dom-node" data-level="3">
+                                            <span class="node-tag">&lt;h1&gt;</span>Hero Title
+                                        </div>
+                                        <div class="dom-node" data-level="3">
+                                            <span class="node-tag">&lt;p&gt;</span>Hero Description
+                                        </div>
+                                        <div class="dom-node" data-level="3">
+                                            <span class="node-tag">&lt;button&gt;</span>CTA Button
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dom-node" data-level="2">
+                                    <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                                    <span class="node-tag">&lt;section class="featured-section"&gt;</span>
+                                    <div class="node-children">
+                                        <div class="dom-node" data-level="3">
+                                            <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                                            <span class="node-tag">&lt;div class="featured-grid"&gt;</span>
+                                            <div class="node-children">
+                                                <div class="dom-node" data-level="4">
+                                                    <span class="node-tag">&lt;div class="featured-card"&gt;</span>Card Content
+                                                </div>
+                                                <div class="dom-node" data-level="4">
+                                                    <span class="node-tag">&lt;div class="featured-card"&gt;</span>Card Content
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dom-node" data-level="2">
+                                    <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                                    <span class="node-tag">&lt;section class="products-section"&gt;</span>
+                                    <div class="node-children">
+                                        <div class="dom-node" data-level="3">
+                                            <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                                            <span class="node-tag">&lt;div class="products-grid"&gt;</span>
+                                            <div class="node-children">
+                                                <div class="dom-node" data-level="4">
+                                                    <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                                                    <span class="node-tag">&lt;div class="product-card"&gt;</span>
+                                                    <div class="node-children">
+                                                        <div class="dom-node" data-level="5">
+                                                            <span class="node-tag">&lt;div class="product-image"&gt;</span>
+                                                        </div>
+                                                        <div class="dom-node" data-level="5">
+                                                            <span class="node-tag">&lt;h3&gt;</span>Product Name
+                                                        </div>
+                                                        <div class="dom-node" data-level="5">
+                                                            <span class="node-tag">&lt;button&gt;</span>Add to Cart
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Footer -->
+                                <div class="dom-node" data-level="2">
+                                    <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                                    <span class="node-tag">&lt;footer class="footer"&gt;</span>
+                                    <div class="node-children">
+                                        <div class="dom-node" data-level="3">
+                                            <span class="node-toggle" onclick="toggleNode(this)">▼</span>
+                                            <span class="node-tag">&lt;div class="footer-content"&gt;</span>
+                                            <div class="node-children">
+                                                <div class="dom-node" data-level="4">
+                                                    <span class="node-tag">&lt;div class="footer-section"&gt;</span>Footer Info
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Scripts -->
+                                <div class="dom-node" data-level="2">
+                                    <span class="node-tag">&lt;script src="script.js"&gt;&lt;/script&gt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DOM Explanation -->
+            <div class="dom-explanation">
+                <h3>Page Structure Breakdown</h3>
+                <div class="explanation-grid">
+                    <div class="explanation-card">
+                        <h4>1. Marquee Container</h4>
+                        <p>Displays scrolling event information across all pages</p>
+                    </div>
+                    <div class="explanation-card">
+                        <h4>2. Navigation Bar</h4>
+                        <p>Consistent navigation structure with links to all pages</p>
+                    </div>
+                    <div class="explanation-card">
+                        <h4>3. Page Header</h4>
+                        <p>Hero section or page title area</p>
+                    </div>
+                    <div class="explanation-card">
+                        <h4>4. Main Content</h4>
+                        <p>Various sections containing page-specific content</p>
+                    </div>
+                    <div class="explanation-card">
+                        <h4>5. Footer</h4>
+                        <p>Consistent footer with links and contact information</p>
+                    </div>
+                    <div class="explanation-card">
+                        <h4>6. JavaScript</h4>
+                        <p>External script file for interactive features</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Website Pages Overview -->
+            <div class="pages-overview">
+                <h3>Website Pages Structure</h3>
+                <div class="pages-grid">
+                    <div class="page-card">
+                        <div class="page-icon">🏠</div>
+                        <h4>Home (index.html)</h4>
+                        <ul>
+                            <li>Hero Section</li>
+                            <li>Philosophy Cards</li>
+                            <li>Collections Preview</li>
+                            <li>Statistics Counter</li>
+                        </ul>
+                    </div>
+                    <div class="page-card">
+                        <div class="page-icon">🛍️</div>
+                        <h4>Products (products.html)</h4>
+                        <ul>
+                            <li>Filter Buttons</li>
+                            <li>Products Grid</li>
+                            <li>Product Cards</li>
+                            <li>Add to Cart Feature</li>
+                        </ul>
+                    </div>
+                    <div class="page-card">
+                        <div class="page-icon">👥</div>
+                        <h4>Board (about.html)</h4>
+                        <ul>
+                            <li>Board Member Cards</li>
+                            <li>Photo Placeholders</li>
+                            <li>Member Details Modal</li>
+                            <li>Company Values</li>
+                        </ul>
+                    </div>
+                    <div class="page-card">
+                        <div class="page-icon">🎉</div>
+                        <h4>Events (events.html)</h4>
+                        <ul>
+                            <li>Countdown Timer</li>
+                            <li>Event Cards</li>
+                            <li>Registration Buttons</li>
+                            <li>Past Events</li>
+                        </ul>
+                    </div>
+                    <div class="page-card">
+                        <div class="page-icon">📧</div>
+                        <h4>Contact (contact.html)</h4>
+                        <ul>
+                            <li>Contact Information</li>
+                            <li>Inquiry Form</li>
+                            <li>FAQ Accordion</li>
+                            <li>Form Validation</li>
+                        </ul>
+                    </div>
+                    <div class="page-card">
+                        <div class="page-icon">🌳</div>
+                        <h4>DOM (dom-structure.html)</h4>
+                        <ul>
+                            <li>Interactive DOM Tree</li>
+                            <li>Expand/Collapse Features</li>
+                            <li>Structure Overview</li>
+                            <li>Technical Documentation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- JavaScript Features -->
+            <div class="js-features">
+                <h3>JavaScript Features Implemented</h3>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <span class="feature-number">1</span>
+                        <div>
+                            <h4>Mobile Navigation Toggle</h4>
+                            <p>Hamburger menu for responsive design</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">2</span>
+                        <div>
+                            <h4>Scroll Animations</h4>
+                            <p>Elements fade in as you scroll down the page</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">3</span>
+                        <div>
+                            <h4>Counter Animation</h4>
+                            <p>Animated statistics counter on home page</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">4</span>
+                        <div>
+                            <h4>Product Filtering</h4>
+                            <p>Dynamic product filtering by category</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">5</span>
+                        <div>
+                            <h4>Add to Cart</h4>
+                            <p>Shopping cart functionality with notifications</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">6</span>
+                        <div>
+                            <h4>Event Countdown</h4>
+                            <p>Real-time countdown to next event</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">7</span>
+                        <div>
+                            <h4>Form Validation</h4>
+                            <p>Contact form with input validation</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">8</span>
+                        <div>
+                            <h4>FAQ Accordion</h4>
+                            <p>Expandable FAQ sections</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">9</span>
+                        <div>
+                            <h4>Modal Dialogs</h4>
+                            <p>Pop-up modals for member details</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-number">10</span>
+                        <div>
+                            <h4>Interactive DOM Tree</h4>
+                            <p>Expandable/collapsible DOM visualization</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Lightened House</h3>
+                    <p>Elegance Redefined Since 2010</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: daniel.kure@miva.edu.ng</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" onclick="socialClick('Facebook')">Facebook</a>
+                        <a href="#" onclick="socialClick('Instagram')">Instagram</a>
+                        <a href="#" onclick="socialClick('Twitter')">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lightened House. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,148 @@
+╔════════════════════════════════════════════════════════════╗
+║                                                            ║
+║            LIGHTENED HOUSE WEBSITE                         ║
+║            Quick Start Guide                               ║
+║                                                            ║
+╚════════════════════════════════════════════════════════════╝
+
+🚀 HOW TO VIEW THE WEBSITE
+═══════════════════════════════════════════════════════════
+
+METHOD 1: DIRECT OPEN (Easiest)
+────────────────────────────────────────
+Simply double-click the "index.html" file.
+It will open in your default web browser.
+
+
+METHOD 2: PYTHON SERVER (Recommended)
+────────────────────────────────────────
+1. Open Terminal (Mac) or Command Prompt (Windows)
+2. Navigate to this folder:
+   cd /Users/mac/miva-fashion-house
+3. Run this command:
+   python3 -m http.server 8000
+4. Open your browser and go to:
+   http://localhost:8000
+
+
+METHOD 3: NODE.JS SERVER
+────────────────────────────────────────
+1. Install http-server:
+   npm install -g http-server
+2. Run in this folder:
+   http-server
+3. Open browser to:
+   http://localhost:8080
+
+
+📁 WEBSITE STRUCTURE
+═══════════════════════════════════════════════════════════
+
+6 PAGES:
+1. index.html          → Home page
+2. products.html       → Product showcase
+3. about.html          → Board of Trustees
+4. events.html         → Upcoming events
+5. contact.html        → Contact & appointments
+6. dom-structure.html  → DOM visualization
+
+
+🎨 FILES INCLUDED
+═══════════════════════════════════════════════════════════
+
+✓ index.html          - Home page with hero section
+✓ products.html       - 10 products with filtering
+✓ about.html          - 6 board members
+✓ events.html         - 6 events with countdown
+✓ contact.html        - Contact form & FAQ
+✓ dom-structure.html  - Interactive DOM tree
+✓ styles.css          - All styling
+✓ script.js           - 20+ JavaScript features
+✓ README.md           - Complete documentation
+
+
+✨ FEATURES INCLUDED
+═══════════════════════════════════════════════════════════
+
+✓ Marquee on all pages
+✓ Consistent navigation
+✓ Product showcase with filtering
+✓ Board of Trustees profiles
+✓ Event countdown timer
+✓ Contact form with validation
+✓ FAQ accordion
+✓ Mobile responsive design
+✓ Smooth animations
+✓ Interactive DOM visualization
+
+
+🎯 NAVIGATION
+═══════════════════════════════════════════════════════════
+
+All pages have the same navigation menu at the top:
+• Home
+• Products
+• Board of Trustees
+• Events
+• Contact
+• DOM Structure
+
+
+💡 INTERACTIVE FEATURES
+═══════════════════════════════════════════════════════════
+
+Try these:
+→ Click "Add to Cart" on products
+→ Filter products by category
+→ View board member profiles
+→ Watch the event countdown
+→ Fill out the contact form
+→ Expand/collapse FAQ items
+→ Toggle DOM tree nodes
+→ Resize browser to see responsive design
+
+
+📱 MOBILE FRIENDLY
+═══════════════════════════════════════════════════════════
+
+The website is fully responsive!
+• Desktop: Full layout
+• Tablet: Adjusted columns
+• Mobile: Hamburger menu + stacked layout
+
+
+🎨 CUSTOMIZATION
+═══════════════════════════════════════════════════════════
+
+Want to customize?
+→ Colors: Edit styles.css (search for :root)
+→ Content: Edit HTML files
+→ Features: Modify script.js
+
+
+❓ TROUBLESHOOTING
+═══════════════════════════════════════════════════════════
+
+Q: Page looks broken?
+A: Make sure all files (HTML, CSS, JS) are in the same folder
+
+Q: JavaScript not working?
+A: Check browser console (F12) for errors
+
+Q: Styles not loading?
+A: Verify styles.css is in the same directory
+
+
+📞 SUPPORT
+═══════════════════════════════════════════════════════════
+
+For questions about the website:
+Email: daniel.kure@miva.edu.ng
+Phone: +1 (555) 123-4567
+
+
+═══════════════════════════════════════════════════════════
+           Built with HTML, CSS & JavaScript
+           Lightened House - Elegance Redefined
+═══════════════════════════════════════════════════════════
+
