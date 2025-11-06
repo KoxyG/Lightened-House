@@ -267,8 +267,8 @@ This website demonstrates:
 ## 📞 Contact Information
 
 **Lightened House**
-- Address: 123 Fashion Avenue, New York, NY 10001
-- Phone: +1 (555) 123-4567
+- Address: MIVA Open University, Abuja-Keffi Expressway, Abuja, FCT, Nigeria
+- Phone: +234 (81) 0000-0000
 - Email: daniel.kure@miva.edu.ng
 - Hours: Mon-Fri 9AM-8PM, Sat 10AM-6PM, Sun 12PM-5PM
 

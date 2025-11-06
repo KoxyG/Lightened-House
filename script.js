@@ -444,7 +444,7 @@ function socialClick(platform) {
 // 14. Map Function
 // ================================
 function openMap() {
-    const address = '123 Fashion Avenue, New York, NY 10001';
+    const address = 'MIVA Open University, Abuja-Keffi Expressway, Abuja, FCT, Nigeria';
     const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
     window.open(mapsUrl, '_blank');
 }
