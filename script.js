@@ -526,8 +526,8 @@ document.addEventListener('keydown', function(e) {
 // ================================
 // Console Welcome Message
 // ================================
-console.log('%c Welcome to Lightened House! ', 'background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; font-size: 20px; padding: 10px;');
-console.log('%c Elegance Redefined Since 2010 ', 'color: #667eea; font-size: 14px;');
+console.log('%c Welcome to Lightened House! ', 'background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%); color: white; font-size: 20px; padding: 10px;');
+console.log('%c Elegance Redefined Since 2010 ', 'color: #0F52BA; font-size: 14px;');
 console.log('Website developed with HTML, CSS, and JavaScript');
 
 // ================================

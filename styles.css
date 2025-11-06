@@ -10,16 +10,21 @@
 }
 
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #e74c3c;
-    --accent-color: #3498db;
+    --primary-color: #0F52BA;
+    --secondary-color: #4169E1;
+    --accent-color: #4169E1;
     --text-color: #333;
-    --light-bg: #f8f9fa;
+    --light-bg: #F5F5F5;
     --white: #ffffff;
     --gray: #6c757d;
     --border-color: #dee2e6;
     --shadow: 0 2px 15px rgba(0,0,0,0.1);
     --transition: all 0.3s ease;
+    
+    /* New Color Scheme: Royal Blue, Sapphire, Swan Wing */
+    --royal-blue: #4169E1;
+    --sapphire: #0F52BA;
+    --swan-wing: #F5F5F5;
 }
 
 body {
@@ -39,7 +44,7 @@ body {
    Marquee
    ================================ */
 .marquee-container {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     padding: 12px 0;
     font-weight: 500;
@@ -75,7 +80,7 @@ marquee {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -102,7 +107,7 @@ marquee {
     left: 0;
     width: 0;
     height: 2px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     transition: var(--transition);
 }
 
@@ -113,7 +118,7 @@ marquee {
 
 .nav-menu a:hover,
 .nav-menu a.active {
-    color: #667eea;
+    color: #4169E1;
 }
 
 .hamburger {
@@ -183,7 +188,7 @@ marquee {
     padding: 15px 40px;
     font-size: 18px;
     background: white;
-    color: #667eea;
+    color: #0F52BA;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -221,7 +226,7 @@ marquee {
    Page Header
    ================================ */
 .page-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     text-align: center;
     padding: 80px 20px;
@@ -257,7 +262,7 @@ marquee {
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     border-radius: 2px;
 }
 
@@ -352,7 +357,7 @@ marquee {
     display: inline-block;
     margin: 0 20px 20px;
     padding: 10px 30px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     text-decoration: none;
     border-radius: 25px;
@@ -361,7 +366,7 @@ marquee {
 
 .view-btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 4px 15px rgba(65, 105, 225, 0.4);
 }
 
 /* ================================
@@ -369,7 +374,7 @@ marquee {
    ================================ */
 .stats-section {
     padding: 80px 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
 }
 
@@ -413,9 +418,9 @@ marquee {
 
 .filter-btn {
     padding: 12px 30px;
-    border: 2px solid #667eea;
+    border: 2px solid #4169E1;
     background: white;
-    color: #667eea;
+    color: #4169E1;
     border-radius: 25px;
     cursor: pointer;
     font-weight: 600;
@@ -424,7 +429,7 @@ marquee {
 
 .filter-btn:hover,
 .filter-btn.active {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     transform: scale(1.05);
 }
@@ -482,7 +487,7 @@ marquee {
 }
 
 .product-category {
-    color: #667eea;
+    color: #4169E1;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -510,7 +515,7 @@ marquee {
 
 .add-to-cart {
     padding: 10px 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     border: none;
     border-radius: 25px;
@@ -521,7 +526,7 @@ marquee {
 
 .add-to-cart:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 4px 15px rgba(65, 105, 225, 0.4);
 }
 
 .cart-notification {
@@ -616,7 +621,7 @@ marquee {
 }
 
 .member-title {
-    color: #667eea;
+    color: #4169E1;
     font-weight: 600;
     margin-bottom: 15px;
     font-size: 16px;
@@ -630,7 +635,7 @@ marquee {
 
 .member-contact button {
     padding: 10px 30px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     border: none;
     border-radius: 25px;
@@ -763,7 +768,7 @@ marquee {
     display: block;
     font-size: 48px;
     font-weight: bold;
-    color: #667eea;
+    color: #4169E1;
     margin-bottom: 10px;
 }
 
@@ -810,7 +815,7 @@ marquee {
 }
 
 .date-box {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     padding: 20px;
     border-radius: 15px;
@@ -866,7 +871,7 @@ marquee {
 
 .event-btn {
     padding: 12px 30px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     border: none;
     border-radius: 25px;
@@ -988,7 +993,7 @@ marquee {
 
 .social-icon {
     padding: 10px 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     text-decoration: none;
     border-radius: 25px;
@@ -1038,7 +1043,7 @@ marquee {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #4169E1;
 }
 
 .checkbox-label {
@@ -1054,7 +1059,7 @@ marquee {
 
 .submit-btn {
     padding: 15px 40px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     border: none;
     border-radius: 25px;
@@ -1110,7 +1115,7 @@ marquee {
 .map-btn {
     margin-top: 20px;
     padding: 12px 30px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     border: none;
     border-radius: 25px;
@@ -1162,7 +1167,7 @@ marquee {
 .faq-toggle {
     font-size: 24px;
     font-weight: bold;
-    color: #667eea;
+    color: #4169E1;
     transition: var(--transition);
 }
 
@@ -1215,7 +1220,7 @@ marquee {
 
 .dom-btn {
     padding: 12px 30px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     border: none;
     border-radius: 25px;
@@ -1245,7 +1250,7 @@ marquee {
 
 .node-toggle {
     cursor: pointer;
-    color: #667eea;
+    color: #4169E1;
     font-weight: bold;
     margin-right: 5px;
     display: inline-block;
@@ -1287,7 +1292,7 @@ marquee {
     padding: 25px;
     border-radius: 10px;
     box-shadow: var(--shadow);
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #4169E1;
 }
 
 .explanation-card h4 {
@@ -1383,7 +1388,7 @@ marquee {
 .feature-number {
     width: 40px;
     height: 40px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%);
     color: white;
     border-radius: 50%;
     display: flex;
