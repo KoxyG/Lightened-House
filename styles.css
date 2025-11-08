@@ -1503,25 +1503,28 @@ marquee {
 #backToTopBtn {
     display: none; 
     position: fixed;
-    bottom: 20px;
-    right: 30px; 
+    bottom: 25px;
+    right: 35px; 
     z-index: 99; 
     border: none; 
     outline: none; 
-    background: linear-gradient(135deg, #4169E1 0%, #0F52BA 100%); 
+    background: linear-gradient(135deg, var(--royal-blue) 0%, var(--sapphire) 100%); 
     color: white; 
     cursor: pointer; 
-    padding: 15px 20px;
-    border-radius: 50%;
-    font-size: 18px; 
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
+    padding: 18px 22px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 25px rgba(15, 82, 186, 0.4); 
 }
 
 #backToTopBtn:hover {
-    background: linear-gradient(135deg, #0F52BA 0%, #4169E1 100%); 
-    transform: translateY(-3px); 
-    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, var(--sapphire) 0%, var(--royal-blue) 100%); 
+    transform: translateY(-5px) scale(1.02); 
+    box-shadow: 0 12px 35px rgba(15, 82, 186, 0.6);
+    color: var(--swan-wing);
 }
 
 /* ================================
@@ -1592,8 +1595,9 @@ marquee {
     #backToTopBtn { 
         right: 20px;
         bottom: 20px;
-        padding: 12px 17px;
-        font-size: 16px;
+        padding: 14px 18px;
+        font-size: 18px;
+        border-radius: 10px;
     }
 }
 
@@ -1621,8 +1625,9 @@ marquee {
     #backToTopBtn { 
         right: 15px;
         bottom: 15px;
-        padding: 10px 15px;
-        font-size: 14px;
+        padding: 10px 14px;
+        font-size: 16px;
+        border-radius: 8px;
     }
 }
 
