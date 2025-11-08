@@ -1512,7 +1512,7 @@ marquee {
     color: white; 
     cursor: pointer; 
     padding: 18px 22px;
-    border-radius: 12px;
+    border-radius: 50%;
     font-size: 20px;
     font-weight: bold;
     line-height: 1;
