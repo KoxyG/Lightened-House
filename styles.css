@@ -1562,13 +1562,6 @@ marquee {
     .time-unit span {
         font-size: 32px;
     }
-    #backToTopBtn { 
-        right: 20px;
-        bottom: 20px;
-        padding: 14px 18px;
-        font-size: 18px;
-        border-radius: 10px;
-    }
 }
 
 
