@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initContactForm();
     initFAQ();
     initDOMTree();
+    initBackToTopButton();
 });
 
 // ================================
@@ -534,3 +535,27 @@ console.log('Website developed with HTML, CSS, and JavaScript');
 // Export functions for HTML onclick handlers
 // ================================
 // Functions that are called from HTML are already in global scope
+
+// ================================
+// 21. Back to Top Button  
+// ================================
+function initBackToTopButton() {
+    let backToTopBtn = document.getElementById("backToTopBtn");
+
+    // Show/hide the button based on scroll position
+    window.onscroll = function() {
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+            backToTopBtn.style.display = "block";
+        } else {
+            backToTopBtn.style.display = "none";
+        }
+    };
+
+    // When the user clicks on the button, scroll to the top
+    backToTopBtn.addEventListener("click", function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Smooth scroll
+        });
+    });
+}
