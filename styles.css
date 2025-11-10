@@ -1498,36 +1498,6 @@ marquee {
 }
 
 /* ================================
-   Back to Top Button 
-   ================================ */
-#backToTopBtn {
-    display: none; 
-    position: fixed;
-    bottom: 25px;
-    right: 35px; 
-    z-index: 99; 
-    border: none; 
-    outline: none; 
-    background: linear-gradient(135deg, var(--royal-blue) 0%, var(--sapphire) 100%); 
-    color: white; 
-    cursor: pointer; 
-    padding: 15px 20px;
-    border-radius: 12px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 8px 25px rgba(15, 82, 186, 0.4); 
-}
-
-#backToTopBtn:hover {
-    background: linear-gradient(135deg, var(--sapphire) 0%, var(--royal-blue) 100%); 
-    transform: translateY(-5px) scale(1.02); 
-    box-shadow: 0 12px 35px rgba(15, 82, 186, 0.6);
-    color: var(--swan-wing);
-}
-
-/* ================================
    Responsive Design
    ================================ */
 @media (max-width: 968px) {
@@ -1621,13 +1591,6 @@ marquee {
 
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
-    }
-    #backToTopBtn { 
-        right: 15px;
-        bottom: 15px;
-        padding: 10px 14px;
-        font-size: 16px;
-        border-radius: 8px;
     }
 }
 
