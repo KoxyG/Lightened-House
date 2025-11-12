@@ -75,13 +75,12 @@ marquee {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 80px;
 }
 
 .logo img {
     height: 250px;
     width: auto;
-    max-width: 300px;
+    max-width: 320px;
     display: block;
 }
 
