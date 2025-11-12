@@ -78,13 +78,6 @@ marquee {
     min-height: 65px;
 }
 
-.logo img {
-    height: 45px;
-    width: auto;
-    max-width: 300px;
-    display: block;
-}
-
 .nav-menu {
     display: flex;
     list-style: none;
