@@ -1466,21 +1466,19 @@ marquee {
 
 .social-links {
     display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center; 
-    margin-top: 10px;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
-.social-icon {
-    width: 32px;
-    height: 32px;
-    vertical-align: middle;
-    border-radius: 5px;
-    transition: transform 0.2s ease-in-out;
+.social-links a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+    transition: var(--transition);
 }
 
-.social-icon:hover {
+.social-links a:hover {
+    opacity: 1;
     transform: scale(1.1);
 }
 
