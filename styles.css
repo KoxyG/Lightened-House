@@ -592,8 +592,8 @@ marquee {
     align-items: center;
     margin: 0 auto;
     flex-shrink: 0;
-    width: 60px; 
-    height: 60px;
+    width: 80px; 
+    height: 80px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
     overflow: hidden;
 }
