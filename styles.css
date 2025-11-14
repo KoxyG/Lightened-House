@@ -592,18 +592,25 @@ marquee {
     align-items: center;
     margin: 0 auto;
     flex-shrink: 0;
-}
-
-.member-initials .member-photo {
-    width: 60px;
+    width: 60px; 
     height: 60px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-.member-image .member-photo {
-    width: 60px;
-    height: 60px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
     overflow: hidden;
+}
+
+
+.member-photo .member-initials {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+.member-photo .member-image { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+    border-radius: 50%; 
 }
 
 .member-initials {
