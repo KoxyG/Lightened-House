@@ -594,14 +594,14 @@ marquee {
 }
 
 .member-initials .member-photo {
-    width: 150px;
-    height: 150px;
+    width: 60px !important;
+    height: 60px !important;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .member-image .member-photo {
-    width: 30px;
-    height: 30px;
+    width: 60px !important;
+    height: 60px !important;
     overflow: hidden;
 }
 
