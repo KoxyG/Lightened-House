@@ -616,7 +616,9 @@ marquee {
     height: 100%; 
     object-fit: cover; 
     display: block; 
-    border-radius: 50%; 
+    border-radius: 50%;
+    max-width: 80px !important; 
+    max-height: 80px !important; 
 }
 
 .member-info {
