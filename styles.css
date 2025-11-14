@@ -594,26 +594,26 @@ marquee {
 }
 
 .member-initials .member-photo {
-    width: 60px !important;
-    height: 60px !important;
+    width: 150px;
+    height: 150px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .member-image .member-photo {
-    width: 60px !important;
-    height: 60px !important;
+    width: 120px;
+    height: 120px;
     overflow: hidden;
 }
 
 .member-initials {
-    font-size: 32px;
+    font-size: 48px;
     font-weight: bold;
     color: white;
 }
 
 .member-image {
-    width: 60px; 
-    height: 60px; 
+    width: 50%; 
+    height: 50%; 
     object-fit: cover; 
     display: block; 
     border-radius: 50%; 
