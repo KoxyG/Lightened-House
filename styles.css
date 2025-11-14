@@ -591,6 +591,7 @@ marquee {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    flex-shrink: 0;
 }
 
 .member-initials .member-photo {
@@ -612,8 +613,8 @@ marquee {
 }
 
 .member-image {
-    width: 100%; 
-    height: 100%; 
+    width: 50%; 
+    height: 50%; 
     object-fit: cover; 
     display: block; 
     border-radius: 50%; 
